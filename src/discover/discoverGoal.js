@@ -10,26 +10,20 @@ function findRow(rows, cb) {
   }
 }
 
-module.exports = function (data, { Finalidade }) {
+module.exports = function (data, { FinalidadeStatus }) {
   //
   data.goal = { label: null };
 
-  // if (!Finalidade) {
-  //   Finalidade = "Venda";
-  // }
-  console.log(Finalidade);
-  switch (Finalidade) {
-    case "Venda":
-      data.goal = {
-        key: "sale",
-        label: "Venda",
-      };
-      break;
-    case "Locação":
-      data.goal = {
-        key: "rent",
-        label: "Locação",
-      };
-      break;
+  if (FinalidadeStatus.VENDA) {
+    data.goal = {
+      key: "sale",
+      label: "Venda",
+    };
   }
+  if (FinalidadeStatus.LOCACAO) {
+    data.goal = {
+      key: "rent",
+      label: "Locação",
+      };
+  };
 };
