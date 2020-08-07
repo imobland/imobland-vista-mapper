@@ -5,10 +5,17 @@ module.exports = function (data) {
   const { ValorVenda, ValorLocacao } = data;
   const { DestaqueWeb, KeywordsWeb } = data;
 
-  let operation_id = ValorLocacao && !ValorVenda ? "sale" : "rent";
+  let operation_id = ValorLocacao && !ValorVenda ? "rent" : "sale";
 
+  const goal = {
+    key: operation_id,
+    label: operation_id == "rent" ? "Locação" : "Venda",
+  };
+
+  // FinalidadeStatus.VENDA
   const property = {
     operation_id,
+    goal,
     objective_id: 1,
     reference: Referencia,
     description: DescricaoWeb,
