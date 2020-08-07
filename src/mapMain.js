@@ -19,7 +19,7 @@ module.exports = function (data) {
     objective_id: 1,
     reference: Referencia,
     description: DescricaoWeb,
-    price: operation_id === "rent" ? ValorVenda : ValorLocacao,
+    price: operation_id === "rent" ? ValorLocacao : ValorVenda,
     highlighted: DestaqueWeb == "Sim",
     highlighted_date: Date.now(),
     tags: [],
