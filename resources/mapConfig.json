@@ -1,0 +1,314 @@
+{
+  "allow": ["Quiosque", "Playground", "Sala"],
+  "-deny": ["Quiosque"],
+  "attributes": {
+    "Playground": { "label": "Parquinho", "type": "bool" },
+    "BanheiroSocial": {
+      "type": "bool",
+      "group": "feature"
+    },
+    "EsperaSplit": {
+      "type": "bool",
+      "group": "feature"
+    },
+    "seaDistance": {
+      "type": "number",
+      "label": "Distância do mar (Metros)",
+      "value": "33.33",
+      "group": "location"
+    },
+    "AcceptsFinancing": {
+      "type": "bool",
+      "label": "Aceita financiamento",
+      "value": "1",
+      "group": "legal"
+    },
+    "SecureTax": {
+      "type": "number",
+      "label": "Seguro",
+      "value": "33.33",
+      "group": "legal"
+    },
+    "RealEstateIncorpor": {
+      "type": "date",
+      "label": "Incorporação Imobiliária",
+      "value": "3333",
+      "group": "legal"
+    },
+    "Pcf": {
+      "type": "number",
+      "label": "Fundo de conservação FCI",
+      "value": "33.33",
+      "group": "legal"
+    },
+    "DeliveryDate": {
+      "type": "date",
+      "label": "Data de entrega",
+      "value": "3333",
+      "group": "legal"
+    },
+    "PropertyTax": {
+      "type": "number",
+      "label": "IPTU",
+      "value": "33.33",
+      "group": "legal"
+    },
+    "MaximumPeople": {
+      "type": "integer",
+      "label": "Numero de pessoas",
+      "value": "3333",
+      "group": "legal"
+    },
+    "AcceptsExchange": {
+      "type": "bool",
+      "label": "Aceita permuta",
+      "value": "1",
+      "group": "legal"
+    },
+    "CondominiumPrice": {
+      "type": "number",
+      "label": "Valor condomínio",
+      "value": "33.33",
+      "group": "legal"
+    },
+    "Funded": {
+      "type": "bool",
+      "label": "Financiamento",
+      "value": "1",
+      "group": "legal"
+    },
+    "Averbado": {
+      "type": "bool",
+      "label": "Averbado",
+      "value": "1",
+      "group": "legal"
+    },
+    "YearBuilt": {
+      "type": "integer",
+      "label": "Ano da construção",
+      "value": "3333",
+      "group": "feature"
+    },
+    "UtilArea": {
+      "type": "number",
+      "label": "Área útil m²",
+      "value": "33.33",
+      "group": "feature"
+    },
+    "": {
+      "type": "bool",
+      "label": "Gás encanado",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Geminate": {
+      "type": "bool",
+      "label": "Geminado",
+      "value": "1",
+      "group": "feature"
+    },
+    "ConstructedArea": {
+      "type": "number",
+      "label": "Área construída m²",
+      "value": "33.33",
+      "group": "feature"
+    },
+    "TotalArea": {
+      "type": "number",
+      "label": "Área total m²",
+      "value": "3.33",
+      "group": "feature"
+    },
+    "Paint": {
+      "type": "select",
+      "label": "Pintura",
+      "value": "2",
+      "value_string": "Pintura óleo",
+      "group": "feature"
+    },
+    "Ceiling": {
+      "type": "select",
+      "label": "Forro",
+      "value": "5",
+      "value_string": "Laje",
+      "group": "feature"
+    },
+    "Material": {
+      "type": "select",
+      "label": "Material",
+      "value": "6",
+      "value_string": "PréFab. madeira",
+      "group": "feature"
+    },
+    "PropertyStatus": {
+      "type": "select",
+      "label": "Estado do imóvel",
+      "value": "1",
+      "value_string": "Em construção",
+      "group": "feature"
+    },
+    "AutomatedBlinds": {
+      "type": "bool",
+      "label": "Persianas automatizadas",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Terrace": {
+      "type": "bool",
+      "label": "Terraço",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Adega": {
+      "type": "bool",
+      "label": "Adega",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Parking": {
+      "type": "bool",
+      "label": "Estacionamento",
+      "value": "1",
+      "group": "improvement"
+    },
+    "ElectricFence": {
+      "type": "bool",
+      "label": "Cerca elétrica",
+      "value": "1",
+      "group": "improvement"
+    },
+    "CeilingFan": {
+      "type": "bool",
+      "label": "Ventilador de teto",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Furnished": {
+      "type": "select",
+      "label": "Mobília",
+      "value": "2",
+      "value_string": "SemiMobiliádo",
+      "group": "improvement"
+    },
+    "InCondominium": {
+      "type": "bool",
+      "label": "Em condomínio",
+      "value": "1",
+      "group": "improvement"
+    },
+    "PartyHall": {
+      "type": "bool",
+      "label": "Salão de festas",
+      "value": "1",
+      "group": "improvement"
+    },
+    "AlarmSystem": {
+      "type": "bool",
+      "label": "Sistema de alarme",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Garden": {
+      "type": "bool",
+      "label": "Jardim",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Sauna": {
+      "type": "bool",
+      "label": "Sauna",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Whirlpool": {
+      "type": "bool",
+      "label": "Hidromassagem",
+      "value": "1",
+      "group": "improvement"
+    },
+    "CableTv": {
+      "type": "bool",
+      "label": "Tv a cabo",
+      "value": "1",
+      "group": "improvement"
+    },
+    "TelephoneLine": {
+      "type": "bool",
+      "label": "Linha telefônica",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Restroom": {
+      "type": "bool",
+      "label": "Lavabo",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Fireplace": {
+      "type": "bool",
+      "label": "Lareira",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Barbecue": {
+      "type": "bool",
+      "label": "Churrasqueira",
+      "value": "1",
+      "group": "improvement"
+    },
+    "ThermalPool": {
+      "type": "bool",
+      "label": "Piscina térmica",
+      "value": "1",
+      "group": "improvement"
+    },
+    "ElectricHeater": {
+      "type": "bool",
+      "label": "Aquecedor elétrico",
+      "value": "1",
+      "group": "improvement"
+    },
+    "GasHeater": {
+      "type": "bool",
+      "label": "Aquecedor a gás",
+      "value": "1",
+      "group": "improvement"
+    },
+    "ElectronicGate": {
+      "type": "bool",
+      "label": "Portão eletrônico",
+      "value": "1",
+      "group": "improvement"
+    },
+    "Suite": {
+      "type": "integer",
+      "label": "Suíte(s)",
+      "value": "2",
+      "group": "rooms"
+    },
+    "Kitchen": {
+      "type": "bool",
+      "label": "Cozinha",
+      "value": "1",
+      "group": "rooms"
+    },
+    "Garage": {
+      "type": "integer",
+      "label": "Vagas na garagem",
+      "value": "2",
+      "group": "rooms"
+    },
+    "Bath": {
+      "type": "integer",
+      "label": "Banheiro(s)",
+      "value": "2",
+      "group": "rooms"
+    },
+    "Bed": {
+      "type": "integer",
+      "label": "Quarto(s)",
+      "value": "2",
+      "group": "rooms"
+    }
+  }
+}

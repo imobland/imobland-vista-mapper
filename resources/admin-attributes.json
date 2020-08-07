@@ -1,0 +1,890 @@
+[
+  {
+    "id": 1,
+    "key": "bed",
+    "label": "Quarto(s)",
+    "group": "rooms",
+    "tags": "",
+    "type": "integer"
+  },
+  {
+    "id": 2,
+    "key": "bath",
+    "label": "Banheiro(s)",
+    "group": "rooms",
+    "tags": "",
+    "type": "integer"
+  },
+  {
+    "id": 3,
+    "key": "garage",
+    "label": "Vagas na garagem",
+    "group": "rooms",
+    "tags": "",
+    "type": "integer"
+  },
+  {
+    "id": 4,
+    "key": "stairs",
+    "label": "Escadaria",
+    "group": "improvement",
+    "tags": "escada",
+    "type": "bool"
+  },
+  {
+    "id": 5,
+    "key": "playground",
+    "label": "Parquinho",
+    "group": "improvement",
+    "tags": "parquinho binquedo",
+    "type": "bool"
+  },
+  {
+    "id": 6,
+    "key": "pool",
+    "label": "Piscina",
+    "group": "improvement",
+    "tags": "piscina",
+    "type": "bool"
+  },
+  {
+    "id": 7,
+    "key": "air-conditioner",
+    "label": "Ar condicionado",
+    "group": "improvement",
+    "tags": "ar condicionado",
+    "type": "bool"
+  },
+  {
+    "id": 8,
+    "key": "laundry",
+    "label": "Lavanderia",
+    "group": "rooms",
+    "tags": "lavanderia",
+    "type": "bool"
+  },
+  {
+    "id": 9,
+    "key": "office",
+    "label": "Escritório",
+    "group": "rooms",
+    "tags": "escritorio",
+    "type": "bool"
+  },
+  {
+    "id": 10,
+    "key": "hall",
+    "label": "Salão",
+    "group": "rooms",
+    "tags": "salao",
+    "type": "bool"
+  },
+  {
+    "id": 11,
+    "key": "pantry",
+    "label": "Despensa",
+    "group": "rooms",
+    "tags": "despensa",
+    "type": "bool"
+  },
+  {
+    "id": 12,
+    "key": "property-status",
+    "label": "Estado do imóvel",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 13,
+    "key": "material",
+    "label": "Material",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 14,
+    "key": "ceiling",
+    "label": "Forro",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 15,
+    "key": "floor",
+    "label": "Piso",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 16,
+    "key": "openings",
+    "label": "Esquadrias",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 17,
+    "key": "paint",
+    "label": "Pintura",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 18,
+    "key": "ordinance",
+    "label": "Portaria",
+    "group": "improvement",
+    "tags": "portaria",
+    "type": "bool"
+  },
+  {
+    "id": 19,
+    "key": "balcony",
+    "label": "Sacada",
+    "group": "rooms",
+    "tags": "sacada",
+    "type": "select"
+  },
+  {
+    "id": 20,
+    "key": "scullery",
+    "label": "Copa",
+    "group": "rooms",
+    "tags": "copa",
+    "type": "bool"
+  },
+  {
+    "id": 21,
+    "key": "closet ",
+    "label": "Closet ",
+    "group": "rooms",
+    "tags": "closet",
+    "type": "bool"
+  },
+  {
+    "id": 22,
+    "key": "mezzanine",
+    "label": "Mezanino",
+    "group": "rooms",
+    "tags": "mezanino",
+    "type": "bool"
+  },
+  {
+    "id": 23,
+    "key": "kitchen",
+    "label": "Cozinha",
+    "group": "rooms",
+    "tags": "cosinha",
+    "type": "bool"
+  },
+  {
+    "id": 24,
+    "key": "dining-room",
+    "label": "Sala de jantar",
+    "group": "rooms",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 25,
+    "key": "living-room",
+    "label": "Sala de estar",
+    "group": "rooms",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 26,
+    "key": "veranda",
+    "label": "Varanda",
+    "group": "rooms",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 27,
+    "key": "suite",
+    "label": "Suíte",
+    "group": "rooms",
+    "tags": "",
+    "type": "integer"
+  },
+  {
+    "id": 28,
+    "key": "electronic-gate",
+    "label": "Portão eletrônico",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 29,
+    "key": "gas-heater",
+    "label": "Aquecedor a gás",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 30,
+    "key": "electric-heater",
+    "label": "Aquecedor elétrico",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 31,
+    "key": "thermal-pool",
+    "label": "Piscina térmica",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 32,
+    "key": "barbecue",
+    "label": "Churrasqueira",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 33,
+    "key": "fireplace",
+    "label": "Lareira",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 34,
+    "key": "restroom",
+    "label": "Lavabo",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 35,
+    "key": "telephone-line",
+    "label": "Linha telefônica",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 36,
+    "key": "intercom",
+    "label": "Interfone",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 37,
+    "key": "cable-tv",
+    "label": "Tv a cabo",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 38,
+    "key": "elevator",
+    "label": "Elevador",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 39,
+    "key": "whirlpool",
+    "label": "Hidromassagem",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 40,
+    "key": "sauna",
+    "label": "Sauna",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 41,
+    "key": "cerca",
+    "label": "Cercado",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 42,
+    "key": "",
+    "label": "Alagado",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 43,
+    "key": "",
+    "label": "Aterrado",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 44,
+    "key": "",
+    "label": "Árvores frutíferas",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 45,
+    "key": "",
+    "label": "Árvores nativas",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 46,
+    "key": "",
+    "label": "Matagal",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 47,
+    "key": "",
+    "label": "Grama",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 48,
+    "key": "",
+    "label": "Nivelado",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 49,
+    "key": "",
+    "label": "Riacho",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 54,
+    "key": "",
+    "label": "Calçamento",
+    "group": "access",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 53,
+    "key": "",
+    "label": "Terra",
+    "group": "access",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 52,
+    "key": "asphalt",
+    "label": "Asfalto",
+    "group": "access",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 50,
+    "key": "river",
+    "label": "Rio",
+    "group": "geographyc",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 51,
+    "key": "",
+    "label": "Açude",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 55,
+    "key": "",
+    "label": "Cascalho",
+    "group": "access",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 56,
+    "key": "",
+    "label": "Escriturado",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 57,
+    "key": "",
+    "label": "Averbado",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 58,
+    "key": "",
+    "label": "Posse",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 59,
+    "key": "",
+    "label": "Incorporado",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 60,
+    "key": "funded",
+    "label": "Financiamento",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 61,
+    "key": "",
+    "label": "Galpão para grãos",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 62,
+    "key": "",
+    "label": "Horta",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 63,
+    "key": "",
+    "label": "Parreira de uvas",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 64,
+    "key": "",
+    "label": "Plantação de arvores frutíferas",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 65,
+    "key": "",
+    "label": "Plantação de eucaliptos",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 66,
+    "key": "",
+    "label": "Plantação de pinus",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 67,
+    "key": "",
+    "label": "Plantação de pinheiros",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 68,
+    "key": "",
+    "label": "Plantação de grãos",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 69,
+    "key": "",
+    "label": "Plantação de café",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 70,
+    "key": "",
+    "label": "Criação de gado",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 71,
+    "key": "",
+    "label": "Criação de Suíno",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 72,
+    "key": "",
+    "label": "Aviário",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 73,
+    "key": "garden",
+    "label": "Jardim",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 74,
+    "key": "alarm-system",
+    "label": "Sistema de alarme",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 75,
+    "key": "",
+    "label": "Gás encanado",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 77,
+    "key": "party-hall",
+    "label": "Salão de festas",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 78,
+    "key": "",
+    "label": "Sauna",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 79,
+    "key": "",
+    "label": "Internet",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 80,
+    "key": "total-area",
+    "label": "Área total - m²",
+    "group": "feature",
+    "tags": "",
+    "type": "number"
+  },
+  {
+    "id": 81,
+    "key": "constructed-area",
+    "label": "Área construída - m²",
+    "group": "feature",
+    "tags": "",
+    "type": "number"
+  },
+  {
+    "id": 82,
+    "key": "",
+    "label": "Pintura",
+    "group": "feature",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 83,
+    "key": "",
+    "label": "Edícula",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 84,
+    "key": "",
+    "label": "Hectareas",
+    "group": "feature",
+    "tags": "",
+    "type": "number"
+  },
+  {
+    "id": 85,
+    "key": "",
+    "label": "Alqueires",
+    "group": "feature",
+    "tags": "",
+    "type": "number"
+  },
+  {
+    "id": 86,
+    "key": "",
+    "label": "Salas",
+    "group": "rooms",
+    "tags": "",
+    "type": "integer"
+  },
+  {
+    "id": 87,
+    "key": "in-condominium",
+    "label": "Em condomínio",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 88,
+    "key": "condominium-price",
+    "label": "Valor condomínio",
+    "group": "legal",
+    "tags": "",
+    "type": "number"
+  },
+  {
+    "id": 89,
+    "key": "",
+    "label": "Alugado",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 90,
+    "key": "",
+    "label": "Vendido",
+    "group": "legal",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 91,
+    "key": "backyard",
+    "label": "Quintal",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 92,
+    "key": "furnished",
+    "label": "Mobília",
+    "group": "improvement",
+    "tags": "",
+    "type": "select"
+  },
+  {
+    "id": 93,
+    "key": "",
+    "label": "Ático",
+    "group": "rooms",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 100,
+    "key": "accepts-installment",
+    "label": "Aceita parcelamento",
+    "group": "legal",
+    "tags": "parcelado parcelados ",
+    "type": "bool"
+  },
+  {
+    "id": 101,
+    "key": "accepts-exchange",
+    "label": "Aceita permuta",
+    "group": "legal",
+    "tags": "permuta troca",
+    "type": "bool"
+  },
+  {
+    "id": 102,
+    "key": "reserved",
+    "label": "Reservado",
+    "group": "legal",
+    "tags": "reservado",
+    "type": "bool"
+  },
+  {
+    "id": 103,
+    "key": "maximum-people",
+    "label": "Numero de pessoas",
+    "group": "legal",
+    "tags": "maximum-people",
+    "type": "integer"
+  },
+  {
+    "id": 104,
+    "key": "sea-distance",
+    "label": "Distância do mar (Metros)",
+    "group": "location",
+    "tags": "sea-distance",
+    "type": "number"
+  },
+  {
+    "id": 105,
+    "key": "property-tax",
+    "label": "IPTU",
+    "group": "legal",
+    "tags": "taxa anual",
+    "type": "number"
+  },
+  {
+    "id": 106,
+    "key": "floor-number",
+    "label": "Andares",
+    "group": "improvement",
+    "tags": "floor-number",
+    "type": "integer"
+  },
+  {
+    "id": 107,
+    "key": "inner-security",
+    "label": "Segurança",
+    "group": "improvement",
+    "tags": "",
+    "type": "bool"
+  },
+  {
+    "id": 108,
+    "key": "delivery-date",
+    "label": "Data de entrega",
+    "group": "legal",
+    "tags": "delivery-date",
+    "type": "date"
+  },
+  {
+    "id": 109,
+    "key": "complement",
+    "label": "Complemento",
+    "group": "legal",
+    "tags": "complement",
+    "type": "date"
+  },
+  {
+    "id": 110,
+    "key": "electric-fence",
+    "label": "Cerca elétrica",
+    "group": "improvement",
+    "tags": "electric-fence",
+    "type": "bool"
+  },
+  {
+    "id": 111,
+    "key": "judicial",
+    "label": "Imóvel judicial",
+    "group": "legal",
+    "tags": "judicial",
+    "type": "bool"
+  },
+  {
+    "id": 112,
+    "key": "demi-suite",
+    "label": "Demi suíte",
+    "group": "rooms",
+    "tags": "demi-suite",
+    "type": "integer"
+  },
+  {
+    "id": 113,
+    "key": "deposit",
+    "label": "Depósito",
+    "group": "rooms",
+    "tags": "deposit",
+    "type": "bool"
+  },
+  {
+    "id": 114,
+    "key": "geminate",
+    "label": "Geminado",
+    "group": "feature",
+    "tags": "geminate",
+    "type": "bool"
+  },
+  {
+    "id": 115,
+    "key": "release",
+    "label": "Lançamento",
+    "group": "legal",
+    "tags": "release",
+    "type": "bool"
+  },
+  {
+    "id": 125,
+    "key": "service-stairs",
+    "label": "Escada de Serviço",
+    "group": "improvement",
+    "tags": "escada",
+    "type": "bool"
+  },
+  {
+    "id": 134,
+    "key": "master-suite",
+    "label": "Suíte Master",
+    "group": "rooms",
+    "tags": "master-suite",
+    "type": "integer"
+  },
+  {
+    "id": 136,
+    "key": "cistern",
+    "label": "Cisterna - litros",
+    "group": "improvement",
+    "tags": "",
+    "type": "number"
+  }
+]

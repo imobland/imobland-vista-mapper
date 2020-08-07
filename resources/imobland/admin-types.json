@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "label": "Casa",
+    "category": "home"
+  },
+  {
+    "id": 2,
+    "label": "Sobrado",
+    "category": "home"
+  },
+  {
+    "id": 3,
+    "label": "Quitinete",
+    "category": "home"
+  },
+  {
+    "id": 4,
+    "label": "Chalé",
+    "category": "home"
+  },
+  {
+    "id": 5,
+    "label": "Dupléx",
+    "category": "home"
+  },
+  {
+    "id": 6,
+    "label": "Chácara",
+    "category": "farm"
+  },
+  {
+    "id": 7,
+    "label": "Fazenda",
+    "category": "farm"
+  },
+  {
+    "id": 8,
+    "label": "Terreno",
+    "category": "land"
+  },
+  {
+    "id": 9,
+    "label": "Prédio",
+    "category": "building"
+  },
+  {
+    "id": 10,
+    "label": "Apartamento",
+    "category": "apartment"
+  },
+  {
+    "id": 11,
+    "label": "Loja comercial",
+    "category": "store"
+  },
+  {
+    "id": 12,
+    "label": "Fabrica",
+    "category": "factory"
+  },
+  {
+    "id": 13,
+    "label": "Mansão",
+    "category": "home"
+  },
+  {
+    "id": 14,
+    "label": "Condomínio",
+    "category": "condominium"
+  },
+  {
+    "id": 15,
+    "label": "Quarto",
+    "category": "bedroom"
+  },
+  {
+    "id": 16,
+    "label": "Bloco",
+    "category": "building"
+  },
+  {
+    "id": 17,
+    "label": "Sítio",
+    "category": "farm"
+  },
+  {
+    "id": 18,
+    "label": "Barracão",
+    "category": "building"
+  },
+  {
+    "id": 19,
+    "label": "Shopping",
+    "category": "shopping"
+  },
+  {
+    "id": 20,
+    "label": "Galpão",
+    "category": "building"
+  },
+  {
+    "id": 21,
+    "label": "Sala",
+    "category": "home"
+  },
+  {
+    "id": 22,
+    "label": "Área",
+    "category": "farm"
+  },
+  {
+    "id": 23,
+    "label": "Conjunto comercial",
+    "category": "store"
+  },
+  {
+    "id": 24,
+    "label": "Tríplex",
+    "category": "home"
+  },
+  {
+    "id": 25,
+    "label": "Flat",
+    "category": "home"
+  },
+  {
+    "id": 26,
+    "label": "Loteamento",
+    "category": "land"
+  },
+  {
+    "id": 27,
+    "label": "Pousada",
+    "category": "home"
+  },
+  {
+    "id": 28,
+    "label": "Cobertura",
+    "category": "apartment"
+  }
+]
