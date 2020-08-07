@@ -1,8 +1,9 @@
 const _ = require("lodash");
 
-const camel2title = (camelCase) => camelCase
-  .replace(/([A-Z])/g, (match) => ` ${match}`)
-  .replace(/^./, (match) => match.toUpperCase());
+const camel2title = (camelCase) =>
+  camelCase
+    .replace(/([A-Z])/g, (match) => ` ${match}`)
+    .replace(/^./, (match) => match.toUpperCase());
 
 const getValue = (mapping, key, value) => {
   //
@@ -12,7 +13,11 @@ const getValue = (mapping, key, value) => {
 
   if (!attr.label) attr.label = _.upperFirst(_.startCase(key).toLowerCase());
   if (!attr.group) attr.group = "features";
-  if (!attr.type) attr.type = "text";
+  if (!attr.type) attr.type = "bool";
+
+  if (attr.type == "bool" && value == "Nao") {
+    return;
+  }
 
   attr.value = value;
 
@@ -23,15 +28,16 @@ const getAttributes = (data, mapping) => {
   //
   const attributes = {};
 
-  if (mapping.allow) {
-    data = _.pick(data, mapping.allow);
-  }
-  if (mapping.deny) {
+  if (mapping.omit) {
     data = _.omit(data, mapping.deny);
   }
 
+  const attrs = mapping.attributes;
+
   for (const key in data) {
-    attributes[key] = getValue(mapping, key, data[key]);
+    if (attrs[key]) {
+      attributes[key] = getValue(mapping, key, data[key]);
+    }
   }
 
   return attributes;

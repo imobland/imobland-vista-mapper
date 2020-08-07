@@ -12,11 +12,11 @@ module.exports = function (data) {
     objective_id: 1,
     reference: Referencia,
     description: DescricaoWeb,
-    price: operation_id === 1 ? ValorVenda : ValorLocacao,
+    price: operation_id === "rent" ? ValorVenda : ValorLocacao,
     highlighted: DestaqueWeb == "Sim",
     highlighted_date: Date.now(),
     tags: [],
-    keywords: KeywordsWeb.split(" "),
+    keywords: KeywordsWeb, //KeywordsWeb.split(" ").join(" "),
     date_created: data.DataCadastro,
     last_modified: data.DataAtualizacao,
   };

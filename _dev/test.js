@@ -1,6 +1,6 @@
 const Vista = require("../src");
 const { omit } = require("lodash");
-const mapConfig = {}; //require("../resources/mapConfig");
+const mapConfig = require("../resources/mapConfig");
 
 const run = (async) => {
   //
