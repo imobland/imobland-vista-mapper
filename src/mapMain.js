@@ -2,24 +2,29 @@ module.exports = function (data) {
   //
   const { Referencia } = data;
   const { DescricaoWeb } = data;
-  const { ValorVenda, ValorLocacao } = data;
+  const { Status, ValorLocacao, ValorVenda } = data;
   const { DestaqueWeb, KeywordsWeb } = data;
 
-  let operation_id = ValorLocacao && !ValorVenda ? "rent" : "sale";
-
-  const goal = {
-    key: operation_id,
-    label: operation_id == "rent" ? "Locação" : "Venda",
+  const operations = {
+    Venda: { key: "sale", label: "Venda" },
+    Locacao: { key: "rent", label: "Locação" },
   };
+
+  var goal;
+  if (operations.hasOwnProperty(Status)) {
+    goal = operations[Status];
+  } else {
+    goal = { key: null, label: null };
+  }
 
   // FinalidadeStatus.VENDA
   const property = {
-    operation_id,
+    operation_id: goal.key,
     goal,
     objective_id: 1,
     reference: Referencia,
     description: DescricaoWeb,
-    price: operation_id === "rent" ? ValorLocacao : ValorVenda,
+    price: goal.key === "rent" ? ValorLocacao : ValorVenda,
     highlighted: DestaqueWeb == "Sim",
     highlighted_date: Date.now(),
     tags: [],

@@ -1,5 +1,4 @@
 const discoverType = require("./discover/discoverType");
-const discoverGoal = require("./discover/discoverGoal");
 const discoverLocation = require("./discover/discoverLocation");
 const discoverAttributes = require("./discover/discoverAttributes");
 const discoverPictures = require("./discover/discoverPictures");
@@ -13,7 +12,6 @@ module.exports = {
     const property = mapMain(resource);
 
     discoverType(property, resource);
-    discoverGoal(property, resource);
     discoverLocation(property, resource);
     discoverAttributes(property, resource, mapConfig);
     discoverPictures(property, resource);
@@ -24,9 +22,11 @@ module.exports = {
     // -------------------------------------------------------------------------
     // TITLE
     let title = ["Imóvel"];
+
     if (type && type.label) title[0] = type.label;
-    if (goal && goal.label) title.push(` para ${goal.label}`);
-    if (city && city.label) title.push(` em ${city.name}`);
+    if (goal && goal.label) title.push(`para ${goal.label}`);
+    if (city && city.name) title.push(`em ${city.name}`);
+
     property.title = title.map((key) => key.trim()).join(" ");
 
     // -------------------------------------------------------------------------
