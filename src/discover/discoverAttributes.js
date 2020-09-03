@@ -16,7 +16,7 @@ const getValue = (mapping, key, value) => {
   if (!attr.type) attr.type = "bool";
 
   if (attr.type == "bool" && value == "Nao") return;
-  if (attr.value == "" || attr.value == null) return;
+  if (value == "" || value == null) return;
 
   attr.value = value;
 
