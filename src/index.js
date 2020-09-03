@@ -17,7 +17,7 @@ module.exports = {
     discoverPictures(property, resource);
 
     const { type, goal, location } = property;
-    const { city } = location;
+    const { district } = location;
     
     // -------------------------------------------------------------------------
     // TITLE
@@ -25,7 +25,7 @@ module.exports = {
 
     if (type && type.label) title[0] = type.label;
     if (goal && goal.label) title.push(`para ${goal.label}`);
-    if (city && city.name) title.push(`em ${city.name}`);
+    if (district && district.name) title.push(`em ${district.name}`);
 
     property.title = title.map((key) => key.trim()).join(" ");
 

@@ -36,7 +36,10 @@ const getAttributes = (data, mapping) => {
 
   for (const key in data) {
     if (attrs[key]) {
-      attributes[key] = getValue(mapping, key, data[key]);
+      let row = getValue(mapping, key, data[key]);
+      if (row) {
+        attributes[key] = row;
+      }
     }
   }
 
