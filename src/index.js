@@ -18,7 +18,7 @@ module.exports = {
 
     const { type, goal, location } = property;
     const { district } = location;
-    
+
     // -------------------------------------------------------------------------
     // TITLE
     let title = ["Imóvel"];
@@ -28,6 +28,16 @@ module.exports = {
     if (district && district.name) title.push(`em ${district.name}`);
 
     property.title = title.map((key) => key.trim()).join(" ");
+
+    property.attr_data = {};
+
+    const primaries = ["bed", "bath", "garage", "suites"];
+    for (const i in property.attributes) {
+      const row = property.attributes[i];
+      if (row && primaries.includes(row.name)) {
+        property.attr_data[row.name] = row.value;
+      }
+    }
 
     // -------------------------------------------------------------------------
 

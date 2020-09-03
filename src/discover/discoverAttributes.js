@@ -27,14 +27,14 @@ const getAttributes = (data, mapping) => {
   //
   const attributes = {};
 
-  if (mapping.omit) {
-    data = _.omit(data, mapping.deny);
-  }
+  // if (mapping.omit) {
+  //   data = _.omit(data, mapping.deny);
+  // }
 
   const attrs = mapping.attributes;
 
   for (const key in data) {
-    if (attrs[key]) {
+    if (attrs.hasOwnProperty(key)) {
       let row = getValue(mapping, key, data[key]);
       if (row) {
         attributes[key] = row;
