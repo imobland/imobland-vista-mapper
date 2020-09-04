@@ -1,32 +1,32 @@
 module.exports = [
   {
     key: "apartamento",
-    label: "Apartamento",
+    name: "Apartamento",
     bind: { id: 10 }
   },
   {
     key: "cobertura",
-    label: "Cobertura",
+    name: "Cobertura",
     bind: { id: 28 }
   },
   {
     key: "casa",
-    label: "Casa",
+    name: "Casa",
     bind: { id: 1 }
   },
   {
     key: "casa-em-condominio",
-    label: "Casa em Condomínio",
+    name: "Casa em Condomínio",
     bind: { id: 1 }
   },
   {
     key: "terreno",
-    label: "Terreno",
+    name: "Terreno",
     bind: { id: 8 }
   },
   {
     key: "loft",
-    label: "Loft",
+    name: "Loft",
     bind: { id: 10 }
   }
 ];
