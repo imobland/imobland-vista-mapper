@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "label": "Casa",
+    "name": "Casa",
     "category": "home"
   },
   {
     "id": 2,
-    "label": "Sobrado",
+    "name": "Sobrado",
     "category": "home"
   },
   {
     "id": 3,
-    "label": "Quitinete",
+    "name": "Quitinete",
     "category": "home"
   },
   {
     "id": 4,
-    "label": "Chalé",
+    "name": "Chalé",
     "category": "home"
   },
   {
     "id": 5,
-    "label": "Dupléx",
+    "name": "Dupléx",
     "category": "home"
   },
   {
     "id": 6,
-    "label": "Chácara",
+    "name": "Chácara",
     "category": "farm"
   },
   {
     "id": 7,
-    "label": "Fazenda",
+    "name": "Fazenda",
     "category": "farm"
   },
   {
     "id": 8,
-    "label": "Terreno",
+    "name": "Terreno",
     "category": "land"
   },
   {
     "id": 9,
-    "label": "Prédio",
+    "name": "Prédio",
     "category": "building"
   },
   {
     "id": 10,
-    "label": "Apartamento",
+    "name": "Apartamento",
     "category": "apartment"
   },
   {
     "id": 11,
-    "label": "Loja comercial",
+    "name": "Loja comercial",
     "category": "store"
   },
   {
     "id": 12,
-    "label": "Fabrica",
+    "name": "Fabrica",
     "category": "factory"
   },
   {
     "id": 13,
-    "label": "Mansão",
+    "name": "Mansão",
     "category": "home"
   },
   {
     "id": 14,
-    "label": "Condomínio",
+    "name": "Condomínio",
     "category": "condominium"
   },
   {
     "id": 15,
-    "label": "Quarto",
+    "name": "Quarto",
     "category": "bedroom"
   },
   {
     "id": 16,
-    "label": "Bloco",
+    "name": "Bloco",
     "category": "building"
   },
   {
     "id": 17,
-    "label": "Sítio",
+    "name": "Sítio",
     "category": "farm"
   },
   {
     "id": 18,
-    "label": "Barracão",
+    "name": "Barracão",
     "category": "building"
   },
   {
     "id": 19,
-    "label": "Shopping",
+    "name": "Shopping",
     "category": "shopping"
   },
   {
     "id": 20,
-    "label": "Galpão",
+    "name": "Galpão",
     "category": "building"
   },
   {
     "id": 21,
-    "label": "Sala",
+    "name": "Sala",
     "category": "home"
   },
   {
     "id": 22,
-    "label": "Área",
+    "name": "Área",
     "category": "farm"
   },
   {
     "id": 23,
-    "label": "Conjunto comercial",
+    "name": "Conjunto comercial",
     "category": "store"
   },
   {
     "id": 24,
-    "label": "Tríplex",
+    "name": "Tríplex",
     "category": "home"
   },
   {
     "id": 25,
-    "label": "Flat",
+    "name": "Flat",
     "category": "home"
   },
   {
     "id": 26,
-    "label": "Loteamento",
+    "name": "Loteamento",
     "category": "land"
   },
   {
     "id": 27,
-    "label": "Pousada",
+    "name": "Pousada",
     "category": "home"
   },
   {
     "id": 28,
-    "label": "Cobertura",
+    "name": "Cobertura",
     "category": "apartment"
   }
 ]
