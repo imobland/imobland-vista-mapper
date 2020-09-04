@@ -23,7 +23,7 @@ module.exports = {
     // TITLE
     let title = ["Imóvel"];
 
-    if (type && type.label) title[0] = type.label;
+    if (type && type.name) title[0] = type.name;
     if (goal && goal.label) title.push(`para ${goal.label}`);
     if (district && district.name) title.push(`em ${district.name}`);
 

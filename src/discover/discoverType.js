@@ -16,7 +16,7 @@ module.exports = function (data, { Categoria }) {
     return;
   }
 
-  var row = findRow(Types, (type) => type.label == Categoria);
+  var row = findRow(Types, (type) => type.name == Categoria);
 
   if (row) {
     data.type = findRow(OutTypes, (type) => type.id == row.bind.id);
