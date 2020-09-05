@@ -7,7 +7,7 @@ module.exports = function (data) {
 
   const operations = {
     Venda: { key: "sale", label: "Venda" },
-    Locacao: { key: "rent", label: "Locação" },
+    Aluguel: { key: "rent", label: "Locação" },
   };
 
   var goal;

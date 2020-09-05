@@ -28,5 +28,15 @@ module.exports = [
     key: "loft",
     label: "Loft",
     bind: { id: 10 }
-  }
+  },
+  {
+    key: "loja",
+    label: "Loja",
+    bind: { id: 11 }
+  },
+  {
+    key: "pousada",
+    label: "Pousada",
+    bind: { id: 27 }
+  },
 ];
