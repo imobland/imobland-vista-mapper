@@ -65,7 +65,15 @@ module.exports = {
     //     property.tags.push("rural");
     // }
 
-    // if (highlighted) property.tags.push('highlighted');
+    // HIGHLIGHTED
+    // if (highlighted) {
+    //   property.tags.push('highlighted');
+    // }
+
+    // LANÇAMENTO
+    if (resource["Lancamento"] == "Sim") {
+      property.tags.push("release");
+    }
 
     // -------------------------------------------------------------------------
 

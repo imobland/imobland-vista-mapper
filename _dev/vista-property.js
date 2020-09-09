@@ -77,7 +77,7 @@ module.exports = {
   InicioObra: "",
   InscricaoMunicipal: "",
   KeywordsWeb: "",
-  Lancamento: "Nao",
+  Lancamento: "Sim",
   Limpeza: "",
   LocacaoAnual: "",
   LocacaoTemporada: "",

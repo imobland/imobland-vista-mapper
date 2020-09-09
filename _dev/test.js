@@ -5,8 +5,9 @@ const mapConfig = require("../resources/mapConfig");
 const run = (async) => {
   //
   const property = Vista.map(require("./vista-property"), mapConfig);
-  
-  console.log(omit(property, ["attributes"]));
+
+  console.log(property["tags"]);
+  // console.log(omit(property, ["attributes"]));
   //
 };
 
