@@ -74,6 +74,9 @@ module.exports = {
     if (resource["Lancamento"] == "Sim") {
       property.tags.push("release");
     }
+    if (resource["Vendido"] == "Sim") {
+      property.tags.push("sold");
+    }
 
     // -------------------------------------------------------------------------
 
