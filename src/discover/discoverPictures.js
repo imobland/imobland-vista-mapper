@@ -13,7 +13,7 @@ module.exports = function (data, { Foto }) {
       path: null,
       src: pic.Foto,
       fullpath: pic.Foto,
-      position: pic.Ordem,
+      position: parseInt(pic.Ordem),
     });
     if (pic.Destaque == "Sim") {
       data.display_url = pic.Foto;
