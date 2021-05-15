@@ -39,4 +39,14 @@ module.exports = [
     label: "Pousada",
     bind: { id: 27 }
   },
+  {
+    key: "duplex",
+    label: "Duplex",
+    bind: { id: 5 }
+  },
+  {
+    key: "triplex",
+    label: "Triplex",
+    bind: { id: 24 }
+  },
 ];
